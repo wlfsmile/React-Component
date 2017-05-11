@@ -1,0 +1,44 @@
+.page{
+	text-align: center;
+	margin-top: 20px;
+}
+.pagePrev,.pageNext{
+	background-color: #000;
+	color: #fff;
+	border-radius: 10%;
+	font-family: "微软雅黑";
+	cursor: pointer;
+	width: 70px;
+	height: 30px;
+}
+.pageShow{
+	display: inline-block;
+}
+.pageShow li{
+	background-color: #000;
+	color: #fff;
+	font-family: "微软雅黑";
+	cursor: pointer;
+	float: left;
+	list-style: none;
+	height: 30px;
+	margin: 10px;
+	line-height: 30px;
+	text-align: center;
+}
+.pageShow_li{
+	width: 30px;
+	height: 30px;
+	border-radius: 10%;
+}
+.clearfix:after{
+	content:".";
+	display:block;
+	height:0;
+	font-size:0;
+	clear:both;
+	visibility:hidden
+}
+.clearfix{
+	zoom:1
+}
