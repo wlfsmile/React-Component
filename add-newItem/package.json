@@ -1,0 +1,32 @@
+{
+  "name": "ryf-remark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "flux": "^2.1.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.0",
+    "file-loader": "^0.11.1",
+    "http-server": "^0.8.5",
+    "style-loader": "^0.16.1",
+    "url-loader": "^0.5.8",
+    "webpack": "^1.12.13",
+    "webpack-dev-middleware": "^1.10.2",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-hot-middleware": "^2.18.0"
+  }
+}
